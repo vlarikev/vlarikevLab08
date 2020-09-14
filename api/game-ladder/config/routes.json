@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/game-ladders",
+      "handler": "game-ladder.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/game-ladders/count",
+      "handler": "game-ladder.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/game-ladders/:id",
+      "handler": "game-ladder.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/game-ladders",
+      "handler": "game-ladder.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/game-ladders/:id",
+      "handler": "game-ladder.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/game-ladders/:id",
+      "handler": "game-ladder.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

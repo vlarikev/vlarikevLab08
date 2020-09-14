@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gamers",
+  "info": {
+    "name": "gamers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nickname": {
+      "type": "string"
+    },
+    "hoursPlayed": {
+      "type": "integer"
+    },
+    "gameName": {
+      "model": "games"
+    }
+  }
+}

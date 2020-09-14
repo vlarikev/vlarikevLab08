@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_ladders",
+  "info": {
+    "name": "game ladder"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "gameName": {
+      "model": "games"
+    },
+    "points": {
+      "type": "integer"
+    }
+  }
+}
